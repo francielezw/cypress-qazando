@@ -29,4 +29,4 @@ jobs:
         with: 
           record: true
         env: 
-          CYPRESS_RECORD_KEY: ${{ sectets.CYPRESS_RECORD_KEY }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
