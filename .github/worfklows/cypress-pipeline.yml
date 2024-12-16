@@ -20,8 +20,8 @@ jobs:
         uses: actions/checkout@v3
 
       # Exemplo de execução no terminal
-      - name: instalar dependencias do projeto
-        run: echo Franciele Zwirtes
+      #- name: instalar dependencias do projeto
+      #  run: echo Franciele Zwirtes
 
       # Execução e configuração do projeto
       - name: Run Tests
