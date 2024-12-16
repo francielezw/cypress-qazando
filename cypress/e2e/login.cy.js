@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import commum_login_page from '../support/pages/commum_login_page'
+import commum_login_page from '../support/pages/commun_login_page'
 import login_page from '../support/pages/login_page'
 
 describe('Login', () => {
