@@ -16,15 +16,15 @@ jobs:
 # é o passo a passo para podermos configurar tudo e poder rodas nossos testes
 steps:
   # Clone do projeto
-  — name: Checkout/Clone do projeto
+  - name: Checkout/Clone do projeto
     uses: actions/checkout@v3
 
 # Exemplo de execução no terminal
-   — name: instalar dependencias do projeto
-     run: echo Franciele Zwirtes
+  - name: instalar dependencias do projeto
+    run: echo Franciele Zwirtes
 
 # Execução e configuração do projeto
-  — name: Run Tests
+  - name: Run Tests
     uses: cypress-io/github-action@v6
     with: 
      record: true
